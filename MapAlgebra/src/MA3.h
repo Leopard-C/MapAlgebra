@@ -1,6 +1,6 @@
 /**************************************************************************
 **
-** description: 粘连变换、提取复杂多边形中轴线、构造Delauney三角网
+** description: 粘连变换、提取复杂多边形中轴线、构造Delaunay三角网
 **
 ** author:  @github: Leopard-C/MapAlgebra
 **
