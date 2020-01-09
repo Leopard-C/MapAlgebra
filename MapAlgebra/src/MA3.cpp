@@ -1,5 +1,6 @@
 #include "MA3.h"
 #include "MA2.h"
+#include "MA1.h"
 #include "bmp.h"
 
 #include <cstdio>
@@ -186,6 +187,8 @@ bool AdhesionTransform(const char* srcBmpName, DistanceTemplate* tmpT, float out
 	// 内距变换
 	DisTrans32bit("data/temp/buffer.bmp", tmpT, "data/temp/dis.bmp", "data/temp/loc.bmp", 0);
 	GetBufferFromBmp("data/temp/dis.bmp", "data/temp/loc.bmp", destBmpName, inRadius);
+
+	BmpInverse(destBmpName, destBmpName);
 
 	return true;
 }

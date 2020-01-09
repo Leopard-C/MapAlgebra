@@ -1,0 +1,4 @@
+﻿E:\System\VS2017\IDE\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+E:\System\VS2017\IDE\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+  MapAlgebra.vcxproj -> F:\ICRYSTAL\MapAlgebra\bin\Win32\Debug\MapAlgebra.exe

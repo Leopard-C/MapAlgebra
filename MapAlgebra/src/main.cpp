@@ -45,7 +45,7 @@ int main()
 
 
 	/* 3-1. 粘连变换 */
-	AdhesionTransform("data/input/8bit/shape.bmp", &eur13Tem, 20, 30, "data/output/adhesionTrans.bmp");
+	AdhesionTransform("data/input/8bit/adt_src.bmp", &eur13Tem, 20, 20, "data/output/adhesionTrans.bmp");
 
 	/* 3-2. 提取中轴 */
 	GetAxis("data/input/8bit/axis_test.bmp", &eur13Tem, "data/output/axis.bmp");

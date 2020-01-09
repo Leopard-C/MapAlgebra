@@ -399,7 +399,7 @@ bool GetBuffer(const float* const* disMtx, uint mtxWidth, uint mtxHeight, uchar*
 			if (disMtx[y][x] > radius)
 				disMtxTemp[y][x] = 0xFF;
 			else
-				disMtxTemp[y][x] = disMtx[y][x];
+				disMtxTemp[y][x] = 0x00;
 		}
 	}
 
